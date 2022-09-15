@@ -7,14 +7,20 @@
 /* tools */
 
 .debug{
-    margin: solid 1px green;
+    border: 1px solid  green;
     background-color: rgba(255, 0, 0, .25);
 }
 
-/* /tools */
 .flex{
     display:flex;
 }
+
+.container{
+    padding: 0 18%;
+}
+
+/* /tools */
+
 /* header */
 
 header{
@@ -31,6 +37,32 @@ header{
 }
 /* /header */
 
+/* .jumbotron */
 .jumbotron{
     padding-top: 80px;
+    background-color: rgb(180, 208, 231);
+    height: 840px;
 }
+
+.jumbotron .container{
+    height: 100%;
+}
+
+.jbt-top{
+   height: 50%;
+}
+
+.jbt-bottom{
+    height: 50%;
+}
+
+.jbt-left{
+    width: calc(100% / 3);
+}
+
+.jbt-right{
+    width: calc(100% / 3 * 2);
+}
+
+
+/* /jumbotron */
