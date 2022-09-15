@@ -11,6 +11,10 @@
     background-color: rgba(255, 0, 0, .25);
 }
 
+img{
+    width: 100%;
+}
+
 .flex{
     display:flex;
 }
@@ -19,6 +23,9 @@
     padding: 0 18%;
 }
 
+.small-container{
+    padding: 0 25%;
+}
 /* /tools */
 
 /* header */
@@ -28,12 +35,13 @@ header{
     position: fixed;
     z-index: 999;
     width: 100%;
+    background-color: white;
 }
 
 .header-layout{
     height: 100%;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
 /* /header */
 
@@ -63,6 +71,14 @@ header{
 .jbt-right{
     width: calc(100% / 3 * 2);
 }
-
-
 /* /jumbotron */
+
+/* main */
+.partner .left{
+    width: 60%;
+}
+
+.partner .right{
+    width: 40%;
+}
+/* /main */
