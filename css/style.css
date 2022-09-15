@@ -26,6 +26,10 @@ img{
 .small-container{
     padding: 0 25%;
 }
+
+.gray-background{
+    background-color: rgb(180, 208, 231);
+}
 /* /tools */
 
 /* header */
@@ -48,7 +52,6 @@ header{
 /* .jumbotron */
 .jumbotron{
     padding-top: 80px;
-    background-color: rgb(180, 208, 231);
     height: 840px;
 }
 
@@ -93,5 +96,15 @@ header{
 
 .tool-img{
     height: 50%;
+}
+
+.companies{
+    height: 640px;
+    width: 100%;
+}
+
+.call-to-action{
+    justify-content: space-between;
+    padding: 140px 0;
 }
 /* /main */
