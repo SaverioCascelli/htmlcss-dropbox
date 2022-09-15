@@ -81,4 +81,17 @@ header{
 .partner .right{
     width: 40%;
 }
+
+.more-tools ul.tools{
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.more-tools .tool{
+    width: calc(100% / 3);
+    height:500px
+}
+
+.tool-img{
+    height: 50%;
+}
 /* /main */
