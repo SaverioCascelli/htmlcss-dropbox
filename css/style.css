@@ -15,7 +15,7 @@
     display:flex;
 }
 
-.container{
+.large-container{
     padding: 0 18%;
 }
 
@@ -44,7 +44,7 @@ header{
     height: 840px;
 }
 
-.jumbotron .container{
+.jumbotron .large-container{
     height: 100%;
 }
 
