@@ -76,6 +76,10 @@ header{
     align-items: center;
 }
 
+.header-left .logo{
+    width: 120px;
+}
+
 .header-right *{
     margin-left: 20px;
 }
@@ -156,8 +160,28 @@ footer ul{
     list-style-type: none;
 }
 
+footer a{
+    color: white;
+}
+
+.footer-top{
+    padding-top:100px ;
+}
+
 .footer-top ul{
     margin-right: 90px;
+}
+
+.footer-top h3{
+    margin-bottom: 30px;
+}
+
+.footer-top li{
+    margin-bottom: 20px;
+}
+
+.footer-top li:last-child{
+    padding-bottom: 80px;
 }
 
 .footer-top ul:first-child{
@@ -166,5 +190,5 @@ footer ul{
 
 .footer-bottom{
     padding: 60px 0;
-    color:rgb(153, 112, 59);
+    color:rgb(153, 153, 153)
 }
