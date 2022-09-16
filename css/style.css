@@ -8,6 +8,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 /* tools */
 
 .debug{
@@ -32,7 +36,7 @@ img{
 }
 
 .small-container{
-    padding: 0 25%;
+    padding: 0 24%;
 }
 
 .gray-background{
@@ -50,6 +54,16 @@ img{
     height: 45px;
     padding-top:3%
 }
+
+.card{
+    border: 1px solid rgb(208, 208, 211);
+}
+
+.card-title{
+    border: 1px solid rgb(208, 208, 211);
+    text-align: center;
+}
+
 /* /tools */
 
 a{
@@ -151,6 +165,22 @@ header{
 /* /jumbotron */
 
 /* main */
+
+main .small-container{
+    padding-top: 150px;
+}
+
+main .membership{
+    justify-content: space-between;
+}
+
+main .membership .card{
+    width: calc(94% / 3 );
+}
+
+
+
+
 .partner .left{
     width: 60%;
 }
