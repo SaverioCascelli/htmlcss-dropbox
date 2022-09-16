@@ -107,11 +107,10 @@ img{
 }
 
 .button{
- 
     background-color: rgb(0, 97, 255);
-    padding: 10px 10px;
+    padding: 8px 16px;
     color: white;
-    
+ 
 }
 
 .big.button{
@@ -385,12 +384,37 @@ main .find-partner{
     padding-bottom: 40px;
 }
 
+.functions li{
+    margin-bottom: 50px;
+}
+
 /* /more-function */
 
-.companies{
-    height: 640px;
-    width: 100%;
+/* associate-comany */
+
+
+.associate-company .top-company h2{
+    padding-bottom: 60px;
 }
+
+.middle-company{
+    padding-top: 150px;
+}
+
+.associate-company .mid-layout{
+    
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.mid-layout .square-layout{
+    width:calc(100% / 2);
+}
+.mid-layout .square-layout img{
+    padding: 25%;
+}
+
 
 .call-to-action{
     justify-content: space-between;
