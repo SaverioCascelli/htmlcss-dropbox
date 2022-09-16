@@ -33,14 +33,60 @@ img{
 
 .list-style-greecheck{
     list-style-type: none;
+    display: inline-block;
 }
 
 .list-style-greecheck li::before{
-    content: "\2713";
-    font-weight: 900;
+    content: "\f00c";
+    font-weight: bold;
     color: rgb(0, 97, 255);
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
 }
 
+.li-style-user{
+    display: inline-block;
+}
+
+.li-style-user ::before{
+    content: "\f007";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+}
+
+.li-style-users{
+    display: inline-block;
+}
+
+.li-style-users ::before{
+    content: "\f0c0";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+}
+
+.li-style-folder{
+    display: inline-block;
+}
+
+.li-style-folder ::before{
+    content: "\f07b";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+}
+
+.li-style-share{
+    display: inline-block;
+}
+
+.li-style-share ::before{
+    content: "\f1e0";
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+}
 
 
 .large-container{
@@ -210,6 +256,7 @@ main .membership .card{
     display: flex;
     align-items: stretch;
 }
+
 
 .card .plan > *{
     padding-bottom: 10px;
