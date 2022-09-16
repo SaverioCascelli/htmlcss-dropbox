@@ -31,6 +31,18 @@ img{
     list-style-type: none;
 }
 
+.list-style-greecheck{
+    list-style-type: none;
+}
+
+.list-style-greecheck li::before{
+    content: "\2713";
+    font-weight: 900;
+    color: rgb(0, 97, 255);
+}
+
+
+
 .large-container{
     padding: 0 18%;
 }
