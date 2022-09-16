@@ -102,18 +102,19 @@ img{
 }
 
 .button{
-    display: flex;
+ 
     background-color: rgb(0, 97, 255);
-    width: 75px;
-    height: 35px;
+    padding: 10px 10px;
     color: white;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .big.button{
+    display: flex;
     width: 225px;
     height: 45px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -126,7 +127,7 @@ img{
     padding: 40px 30px 40px 30px;
 }
 
-.card h3{
+h3{
     font-size: 1.5rem;
 }
 
@@ -242,7 +243,8 @@ main .small-container{
     padding-top: 150px;
 }
 
-main .membership{
+/* /plan selection */
+main .plan-selection .membership{
     justify-content: space-between;
 }
 
@@ -319,13 +321,43 @@ main .membership .card{
     padding-right: 175px;
 }
 
-.partner .left{
+/* /plan selection */
+
+/* find-partner */
+
+main .find-partner{
+    padding-top: 150px;
+    padding-bottom: 170px;
+}
+
+.partner-left{
     width: 60%;
 }
 
-.partner .right{
+.partner-right{
     width: 40%;
+    padding: 5%;
 }
+
+.partner-right h3{
+    padding-bottom: 20px;
+}
+
+.partner-right p{
+    padding-bottom: 30px;
+}
+
+.partner-right .button{
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+}
+
+
+/* /.find-partner */
+
+
+
 
 .more-tools ul.tools{
     list-style-type: none;
