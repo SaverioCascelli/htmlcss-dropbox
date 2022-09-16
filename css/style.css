@@ -69,11 +69,19 @@ img{
 
 .card{
     border: 1px solid rgb(208, 208, 211);
+    font-size: .9rem;
 }
+
+.card .card-main{
+    padding: 40px 30px 40px 30px;
+}
+
+
 
 .card-title{
     border: 1px solid rgb(208, 208, 211);
     text-align: center;
+    padding: 10px 0;
 }
 
 /* /tools */
@@ -186,12 +194,61 @@ main .membership{
     justify-content: space-between;
 }
 
+.radio-time{
+    padding:70px 0 50px 0;
+}
+
 main .membership .card{
     width: calc(94% / 3 );
 }
 
+.card ul li{
+    display: flex;
+    align-items: stretch;
+}
 
+.card .plan > *{
+    padding-bottom: 10px;
+}
 
+.card .plan , .plan-info {
+    padding-bottom: 50px;
+}
+
+.card .plan-info li{
+    padding-bottom: 25px;
+}
+
+.card .cta .text-link{
+    padding: 30px 0 40px 0;
+    position: relative;
+}
+
+.card .card-bottom{
+    padding-top: 50px;
+}
+
+.card-bottom h4{
+    padding-bottom: 30px;
+}
+
+.card-bottom li{
+    padding-bottom: 20px;
+}
+
+.text-link a{
+    text-decoration: underline;
+    color: black;
+}
+
+.text-link:before {
+    content: '';
+    border-bottom: 1px solid lightgrey;
+    position: absolute;
+    width: 20%;
+   
+    bottom: 0;
+  }
 
 .partner .left{
     width: 60%;
