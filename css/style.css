@@ -12,6 +12,10 @@ h2{
     font-size: 2.5rem;
 }
 
+p{
+    line-height: 25px;
+}
+
 /* tools */
 
 .debug{
@@ -358,19 +362,29 @@ main .find-partner{
 
 
 
-
-.more-tools ul.tools{
-    list-style-type: none;
+/* more-function */
+.more-functions .functions{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-.more-tools .tool{
-    width: calc(100% / 3);
+.more-functions .function{
+    width: calc(95% / 3);
     height:500px
 }
 
-.tool-img{
+.function-img{
     height: 50%;
 }
+
+.more-functions h2{
+    padding-bottom: 50px;
+}
+
+.function h3{
+    padding-bottom: 40px;
+}
+
+/* /more-function */
 
 .companies{
     height: 640px;
