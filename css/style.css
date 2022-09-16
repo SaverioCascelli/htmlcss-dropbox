@@ -57,13 +57,14 @@ img{
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
     padding-right: 5px;
+    display: inline-block;
 }
 
 .li-style-users{
     display: inline-block;
 }
 
-.li-style-users ::before{
+.li-style-users::before{
     content: "\f0c0";
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
@@ -74,7 +75,7 @@ img{
     display: inline-block;
 }
 
-.li-style-folder ::before{
+.li-style-folder::before{
     content: "\f07b";
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
@@ -85,7 +86,7 @@ img{
     display: inline-block;
 }
 
-.li-style-share ::before{
+.li-style-share::before{
     content: "\f1e0";
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
@@ -310,7 +311,7 @@ main .membership .card{
 }
 
 .card.enterprise-info{
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .card.enterprise-info .card-contact h3{
