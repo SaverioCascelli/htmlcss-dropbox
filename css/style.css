@@ -397,28 +397,56 @@ main .find-partner{
     padding-bottom: 60px;
 }
 
-.middle-company{
-    padding-top: 150px;
-}
-
-.associate-company .mid-layout{
-    
-    width: calc(100% / 3);
+.layout-three-square{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
-    align-items: stretch;
 }
 
-.mid-layout .square-layout{
-    width:calc(100% / 2);
+.layout-three-square .layout-four-square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.mid-layout .square-layout img{
-    padding: 25%;
+
+.layout-three-square .layout-four-square svg{
+    width: 65%;
+    filter: invert(1);
 }
 
 
-.call-to-action{
-    justify-content: space-between;
-    padding: 140px 0;
+.designit{
+    background-color: rgb(162, 211, 155);
+}
+
+.arizona{
+    background-color:rgb(97, 8, 43);
+}
+
+.florida{
+    background-color:rgb(0, 147, 206);
+}
+
+.topps{
+    background-color:rgb(255, 28, 28) ;
+}
+
+.bycicle{
+    background-color: rgb(213, 0, 31);
+}
+
+.hearths{
+    background-color: rgb(180, 208, 231);
+}
+
+.lonley{
+    background-color:rgb(13, 36, 129) ;
+}
+
+.channel{
+    background-color: rgb(255, 216, 48);
 }
 /* /main */
 
