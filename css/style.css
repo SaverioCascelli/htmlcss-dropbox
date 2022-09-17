@@ -411,9 +411,45 @@ main .find-partner{
     align-items: center;
 }
 
-.layout-three-square .layout-four-square svg{
-    width: 65%;
+.layout-three-square .layout-four-square img{
+    width: calc(100% / 2);
     filter: invert(1);
+    object-fit: contain;
+}
+
+.layout-three-square.mid-square{
+    display: inline-block;
+    padding: 50px;
+}
+
+
+
+.layout-three-square.mid-square .associate-logo{
+    width: 275px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.associate-logo::after{
+    content: '';
+    width: 40%;
+    height: 1px;
+    background: lightgrey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.layout-three-square.mid-square .associate-text{
+    padding-top: 50px;
+}
+
+.associate-text p{
+    padding-bottom: 50px;
+}
+
+.layout-four-square.active{
+    border: 15px solid rgb(209, 233, 205);
 }
 
 
