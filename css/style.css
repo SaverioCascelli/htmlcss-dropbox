@@ -397,6 +397,10 @@ main .find-partner{
     padding-bottom: 60px;
 }
 
+.company-info{
+    padding-top: 150px;
+}
+
 .layout-three-square{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
@@ -505,6 +509,37 @@ main .find-partner{
     width: 300px;
 }
 
+
+/* faq list */
+
+.faq-list{
+    padding-bottom: 150px;
+}
+.faq-title h2{
+    padding-bottom: 60px;
+}
+
+.faq-list li div{
+    padding: 40px 0;
+}
+.faq-list li div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.faq-list li div p{
+    display:none;
+}
+
+.faq-list li div i:hover{
+    transform: rotate(0.5turn);
+}
+
+.faq-list li div i:hover + #show{
+    padding-top:40px;
+    display: block;
+}
 
 /* /main */
 
