@@ -420,9 +420,8 @@ main .find-partner{
 .layout-three-square.mid-square{
     display: inline-block;
     padding: 50px;
+    overflow: auto;
 }
-
-
 
 .layout-three-square.mid-square .associate-logo{
     width: 275px;
@@ -484,6 +483,29 @@ main .find-partner{
 .channel{
     background-color: rgb(255, 216, 48);
 }
+
+.associate-company .call-to-action{
+    background-color: rgb(180, 208, 231);
+
+    height: 360px;
+}
+
+.associate-company .call-to-action .cta-text{
+    justify-content: space-between;
+}
+
+.associate-company .call-to-action .cta-text h2{
+    color: rgb(97, 8, 43);
+    width: calc(100% / 2);
+}
+
+.associate-company .call-to-action .cta-text a{
+    background-color: white;
+    color: black;
+    width: 300px;
+}
+
+
 /* /main */
 
 /* footer */
