@@ -167,6 +167,17 @@ header{
     color: 121212;
 }
 
+
+header ul li a{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left li  a:hover , .header-right li a:hover{
+    border-bottom: 2px solid rgb(0, 97, 255) ;
+}
+
 .header-left * {
     margin-right: 20px;
 }
