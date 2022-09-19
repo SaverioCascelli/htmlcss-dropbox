@@ -574,7 +574,7 @@ main .find-partner{
     transform: rotate(0.5turn);
 }
 
-.faq-list li div i:hover + #show{
+.faq-list li div:hover #show{
     padding-top:40px;
     display: block;
 }
