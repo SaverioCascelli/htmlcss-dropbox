@@ -290,6 +290,10 @@ main .plan-selection .membership{
     padding:70px 0 50px 0;
 }
 
+.radio-button{
+    padding-right: 50px;
+}
+
 main .membership .card{
     width: calc(94% / 3 );
 }
