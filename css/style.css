@@ -490,7 +490,7 @@ main .find-partner{
 }
 
 .layout-four-square.active{
-    border: 15px solid rgb(209, 233, 205);
+    border: 15px solid rgba(255, 255, 255, .5);
 }
 
 
